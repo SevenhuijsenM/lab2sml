@@ -1,2 +1,5 @@
 common_voice/*
 .conda/*
+whisper-small-hi/*
+whisper-small-ita/*
+dussen/*
