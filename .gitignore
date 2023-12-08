@@ -3,3 +3,4 @@ common_voice/*
 whisper-small-hi/*
 whisper-small-ita/*
 dussen/*
+stream.*
