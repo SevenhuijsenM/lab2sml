@@ -18,7 +18,7 @@ For training the model we have the file whisper_dutch_training.ipynb which takes
 https://huggingface.co/spaces/dussen/Whisper_dutch
 
 It has three pages, one where a person can speak dutch and it is then transcribed.
-The second page uses a video as an input and then transcribes the model.
+The second page uses a video as an input and then transcribes the audio.
 The third page takes as input a link to a radio link that creates mp3 files, and this is then transcribed and put into chatGPT to define what is being played on the radio station. Examples for radio station links are:
 Music -> https://25343.live.streamtheworld.com/WEB10_MP3_SC
 News -> https://icecast.omroep.nl/radio1-bb-mp3 
