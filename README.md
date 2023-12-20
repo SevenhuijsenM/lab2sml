@@ -3,8 +3,12 @@ Laboratory 2 for ID2223 HT23 Scalable Machine Learning and Deep Learning (50935)
 Language: Dutch
 
 After researching online about improvement techinques for Recurrent Neural Networks and different Data/model centric approaches we focused on two main proposal:
-- tune a smaller set of hyperparameters, especially the learning rate
-- at the beginnin we trained the model on a very small data set and in time we increased it.
+
+Data centric:
+- Have more data based on music. As we want to use the model to listen to radio and what is being said, it should know how to recognize music. For this we should have popular music that is being played on the radio and the transcription of it, luckily there is a lot of available music along with the lyrics which can be used. This also requires tuning of parameters towards this data.
+
+Model centric:
+- To improve the accuracy of our radio recognition model we can train a seperate model that tells whether music is being played, news is being given or advertisements are being played. This can then be used to get more accurate results for the radio recognition model as the functionality may differ. Moreover we can finetune the hyperparameters of the current model. At the beginning we trained the model on a very small data set and in time we increased it to get the best results. We can also apply a model to first seperate the vocals from the music and then use the speech recognition on this, basically chaining AI  models.
 
 # We have three different files for training the data
 For feature engineering we have the whisper_dutch_feature_engineering.ipynb which takes the pretrained model and data for the dutch language and creates the features for the training and test set. The audio sampling rate is reduced to 16000hz. The features are then stored in the google drive.
